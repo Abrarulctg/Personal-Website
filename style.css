@@ -1,0 +1,187 @@
+body {
+    font-family: 'Libre Baskerville', serif;
+    margin:0;
+}
+h2{
+    font-size: 30px;
+}
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    color:darkmagenta;
+}
+p{
+    line-height: 25px;
+    color:dimgray;
+}
+a{
+   text-decoration: none; 
+}
+.top-header{
+    background-image: url(Elements/header-bg.png);
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size: cover;
+    height: 700px;
+}
+
+section{
+    display: inline-block;
+}
+
+.half-width{
+    height:100%;
+    width:35%;
+    float:left;
+    margin: 5%;
+    padding:2%;
+}
+.half-width img{
+    height:70%;
+}
+.half-width img:hover{
+    height:72%;
+    transition: 0.5s;
+}
+.link-button{
+    text-decoration: none;
+    background-image:linear-gradient( 45deg,deeppink, tomato);
+    padding:10px 20px;
+    border-radius: 8px;
+    color:white;
+    font-weight: 700px;
+}
+.link-button:hover{
+    text-decoration: none;
+    background-image:linear-gradient( 45deg,tomato,deeppink);
+    padding:14px 24px;
+    border-radius: 8px;
+    color:white;
+    font-weight: 700px;
+    transition: 0.5s;
+}
+.biography{
+    background-image: url(Elements/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: center;
+    height:700px;
+    float:right;
+}
+
+.latest-works{
+    text-align: center;
+    background-image: url(Elements/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:500px; 
+    float:right;
+    padding:20px;
+}
+.works img{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 28%;
+    padding:15px;
+}
+.works img:hover{
+    position: relative;
+    width: 32%;
+    padding:15px;
+    margin-left: auto;
+    margin-right: auto;
+    transition-duration: 0.5s;
+    
+}
+
+.experience-head{
+    padding-left:60px;
+}
+.exp-half-width{
+    width:25%;
+    float:left;
+    margin-left:5%;
+    padding-left:2%;
+    overflow: scroll;
+}
+.exp-half-width:hover{
+    width:28%;
+    float:left;
+    margin-left:4%;
+    padding-left:2%;
+    transition: 0.5s;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray ;
+    border-radius: 10px;
+    height:60%;
+    background-color: white;
+}
+.experience{
+    background-image: url(Elements/exp_bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    height:500px;
+}
+#full-stack{
+    border-left: 7px solid black;
+    border-image: linear-gradient(salmon,tomato);
+    border-image-slice: 1;
+}
+#junior-web{
+    border-left: 7px solid;
+    border-image:linear-gradient(180deg, rgb(251, 255, 0), rgb(123, 255, 0));
+    border-image-slice: 1;
+}
+
+#baby-web{
+    border-left: 7px solid;
+    border-image:linear-gradient(180deg, blue, rgb(255, 92, 92));
+    border-image-slice: 1;
+}
+
+
+
+
+.clients-feedback{
+    background-image: url(Elements/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:500px;
+    width:100%;
+    padding-bottom: 100px;
+}
+.recommend{
+    height:60%;
+    width:50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.feedback{
+    background-image:linear-gradient( 45deg,deeppink,tomato);
+    border-radius: 5px;
+    padding:30px 50px;
+    width:50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.feedback:hover{
+    background-image:linear-gradient( 45deg,deeppink,tomato);
+    border-radius: 5px;
+    padding:35px 55px;
+    width:50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.5s;
+}
+.feedback p{
+    color:white;
+}
+.footer{
+    text-align: center;
+    color:darkolivegreen;
+}
